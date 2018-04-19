@@ -1,5 +1,5 @@
-// const movieLoad = require('./movie');
-// const movieDom = require('./movieDom');
+const movieLoad = require('./movie');
+const movieDom = require('./movieDom');
 const categoryLoad = require('./categories');
 const printCategoriesToDom = require('./categoryDom');
 const data = require('./data');
@@ -10,18 +10,18 @@ const catOnLoad = function () {
   printCategoriesToDom(categoryData);
 };
 
-// const onLoad = function () {
-//   const movieData = JSON.parse(this.responseText).movie;
-//   data.setMovies(movieData);
-//   movieDom(movieData);
-// };
+const mvOnLoad = function () {
+  const movieData = JSON.parse(this.responseText).movie;
+  data.setMovies(movieData);
+  movieDom(movieData);
+};
 
 const noLoad = function () {
   console.log('Cannot Load');
 };
 
 const success = () => {
-  // movieLoad(catOnLoad, noLoad);
+  movieLoad(mvOnLoad, noLoad);
   categoryLoad(catOnLoad, noLoad);
 };
 
