@@ -1,23 +1,28 @@
-const outputDiv = document.getElementById('mv-elements');
 
-const domString = (moviesArray) => {
-  let domString = '';
-  moviesArray.forEach((movie) => {
-    domString += `<div class="row">`;
-    domString +=  `<div class="col-sm-3">`;
-    domString +=   `<div class="panel panel-default">`;
-    domString +=    `<div class="panel-body">`;
-    domString +=     `<h3 class="panel-title" data-movies-id="${movie.id}">${movie.name}</h3>`;
-    domString +=    `</div>`;
-    domString +=   `</div>`;
-    domString +=  `</div>`;
-    domString += `</div>`;
-  });
-  return domString;
+const moviedomString = (movie) => {
+  let moviedomString = '';
+  // moviesArray.forEach((movie) => {
+  moviedomString +=  `<div class="col-sm-3">`;
+  moviedomString +=   `<div class="panel panel-default">`;
+  moviedomString +=    `<div class="panel-body">`;
+  moviedomString += `<div class="checkbox">`;
+  moviedomString += `<label>`;
+  moviedomString +=  `<input type="checkbox" data-movies-id="${movie.id}" value="${movie.cost}"> ${movie.name}`;
+  moviedomString += `</label>`;
+  moviedomString +=  `</div>`;
+  moviedomString +=    `</div>`;
+  moviedomString +=   `</div>`;
+  moviedomString +=  `</div>`;
+  // });
+  return moviedomString;
 };
 
 const printMoviesToDom = (moviesArray) => {
-  outputDiv.innerHTML = domString(moviesArray);
+  // loop over moviesArray
+  moviesArray.forEach((movie) => {
+    const outputDiv = document.getElementById(`cat${movie.categoryId}`);
+    outputDiv.innerHTML += moviedomString(movie);
+  });
 };
 
 module.exports = printMoviesToDom;
