@@ -4,217 +4,217 @@
         "id": "001",
         "categoryId": "01",
         "name": "Robert Downey, Jr.",
-        "cost": "$15,000"
+        "cost": "15000"
       },
       {
         "id": "002",
         "categoryId": "01",
         "name": "Jennifer Lawrence",
-        "cost": "$14,000"
+        "cost": "14000"
       },
       {
         "id": "003",
         "categoryId": "01",
         "name": "Channing Tatum",
-        "cost": "$13,000"
+        "cost": "13000"
       },
       {
         "id": "004",
         "categoryId": "01",
         "name": "Scarlett Johansson",
-        "cost": "$12,000"
+        "cost": "12000"
       },
       {
         "id": "005",
         "categoryId": "01",
         "name": "Will Smith",
-        "cost": "$17,000"
+        "cost": "17000"
       },
       {
         "id": "006",
         "categoryId": "01",
         "name": "Margot Robbie",
-        "cost": "$18,000"
+        "cost": "18000"
       },
       {
         "id": "007",
         "categoryId": "01",
         "name": "Chris Rock",
-        "cost": "$22,000"
+        "cost": "22000"
       },
       {
         "id": "008",
         "categoryId": "01",
         "name": "Angela Basset",
-        "cost": "$28,000"
+        "cost": "28000"
       },
       {
         "id": "009",
         "categoryId": "01",
         "name": "Jamie Fox",
-        "cost": "$20,000"
+        "cost": "20000"
       },
       {
         "id": "010",
         "categoryId": "02",
         "name": "Tiger + Warren Eckstein",
-        "cost": "$190,000"
+        "cost": "190000"
       },
       {
         "id": "011",
         "categoryId": "02",
         "name": "PitBull + Cesar Millan",
-        "cost": "$150,000"
+        "cost": "150000"
       },
       {
         "id": "012",
         "categoryId": "02",
         "name": "Hawk + Steve Austin",
-        "cost": "$100,000"
+        "cost": "100000"
       },
       {
         "id": "013",
         "categoryId": "02",
         "name": "Kangaroo + Victoria Stilwell",
-        "cost": "$180,000"
+        "cost": "180000"
       },
       {
         "id": "015",
         "categoryId": "02",
         "name": "Dolphin + Brandon McMillan",
-        "cost": "$125,000"
+        "cost": "125000"
       },
       {
         "id": "016",
         "categoryId": "02",
         "name": "Elephant + Dave Salmoni",
-        "cost": "$250,000"
+        "cost": "250000"
       },
       {
         "id": "017",
         "categoryId": "02",
         "name": "Cobra + Akbar the Great",
-        "cost": "$300,000"
+        "cost": "300000"
       },
       {
         "id": "018",
         "categoryId": "02",
         "name": "Orka + Dawn Brancheau",
-        "cost": "$210,000"
+        "cost": "210000"
       },
       {
         "id": "019",
         "categoryId": "02",
         "name": "Panda + Boone Narr",
-        "cost": "$220,000"
+        "cost": "220000"
       },
       {
         "id": "020",
         "categoryId": "03",
         "name": "In-camera effects",
-        "cost": "$93,000"
+        "cost": "93000"
       },
       {
         "id": "021",
         "categoryId": "03",
         "name": "Morphing",
-        "cost": "$145,000"
+        "cost": "145000"
       },
       {
         "id": "022",
         "categoryId": "03",
         "name": "Travelling matte",
-        "cost": "$33,000"
+        "cost": "33000"
       },
       {
         "id": "023",
         "categoryId": "03",
         "name": "Wire removal",
-        "cost": "$62,000"
+        "cost": "62000"
       },
       {
         "id": "024",
         "categoryId": "03",
         "name": "Virtual cinematography",
-        "cost": "$210,000"
+        "cost": "210000"
       },
       {
         "id": "025",
         "categoryId": "03",
         "name": "Prosthetic makeup",
-        "cost": "$99,000"
+        "cost": "99000"
       },
       {
         "id": "026",
         "categoryId": "03",
         "name": "Digital compositing",
-        "cost": "$208,000"
+        "cost": "208000"
       },
       {
         "id": "027",
         "categoryId": "03",
         "name": "Motion control photography",
-        "cost": "$197,000"
+        "cost": "197000"
       },
       {
         "id": "028",
         "categoryId": "03",
         "name": "Computer-generated imagery",
-        "cost": "$300,000"
+        "cost": "300000"
       },
       {
         "id": "029",
         "categoryId": "04",
         "name": "Christ Church College, Oxford",
-        "cost": "$1,000,000"
+        "cost": "1000000"
       },
       {
         "id": "030",
         "categoryId": "04",
         "name": "Matamata, New Zealand",
-        "cost": "$3,000,000"
+        "cost": "3000000"
       },
       {
         "id": "031",
         "categoryId": "04",
         "name": "Notting Hill, London",
-        "cost": "$5,000,000"
+        "cost": "5000000"
       },
       {
         "id": "032",
         "categoryId": "04",
         "name": "Ko Phi Phi Leh",
-        "cost": "$7,000,000"
+        "cost": "7000000"
       },
       {
         "id": "033",
         "categoryId": "04",
         "name": "Ouarzazate, Morocco",
-        "cost": "$9,000,000"
+        "cost": "9000000"
       },
       {
         "id": "034",
         "categoryId": "04",
         "name": "Vatican City",
-        "cost": "$11,000,000"
+        "cost": "11000000"
       },
       {
         "id": "035",
         "categoryId": "04",
         "name": "Istanbul, Turkey",
-        "cost": "$13,000,000"
+        "cost": "13000000"
       },
       {
         "id": "036",
         "categoryId": "04",
         "name": "Andalucía, Spain",
-        "cost": "$15,000,000"
+        "cost": "15000000"
       },
       {
         "id": "037",
         "categoryId": "04",
         "name": "Hawaii",
-        "cost": "$17,000,000"
+        "cost": "17000000"
       }
     ]
 }
