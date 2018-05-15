@@ -3,6 +3,7 @@ const printMoviesToDom = require('./movieDom');
 const categoryLoad = require('./categories');
 const printCategoriesToDom = require('./categoryDom');
 const data = require('./data');
+const setBudget = require('./events');
 
 const catOnLoad = function () {
   const categoryData = JSON.parse(this.responseText).categories;
@@ -23,6 +24,7 @@ const noLoad = function () {
 const success = () => {
   categoryLoad(catOnLoad, noLoad);
   movieLoad(mvOnLoad, noLoad);
+  setBudget();
 };
 
 module.exports = success;

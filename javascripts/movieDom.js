@@ -1,4 +1,5 @@
 
+const checkEvent = require('./checkboxEvents');
 const moviedomString = (movie) => {
   let moviedomString = '';
   // moviesArray.forEach((movie) => {
@@ -7,7 +8,7 @@ const moviedomString = (movie) => {
   moviedomString +=    `<div class="panel-body">`;
   moviedomString += `<div class="checkbox">`;
   moviedomString += `<label>`;
-  moviedomString +=  `<input type="checkbox" data-movies-id="${movie.id}" value="${movie.cost}"> ${movie.name}`;
+  moviedomString +=  `<input type="checkbox" class="checkIt" id="${movie.id}" value="${movie.cost}"> ${movie.name}`;
   moviedomString += `</label>`;
   moviedomString +=  `</div>`;
   moviedomString +=    `</div>`;
@@ -23,6 +24,7 @@ const printMoviesToDom = (moviesArray) => {
     const outputDiv = document.getElementById(`cat${movie.categoryId}`);
     outputDiv.innerHTML += moviedomString(movie);
   });
+  checkEvent();
 };
 
 module.exports = printMoviesToDom;
