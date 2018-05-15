@@ -1,8 +1,9 @@
-// const movieLoad = require('./movie');
-// const movieDom = require('./movieDom');
+const movieLoad = require('./movie');
+const printMoviesToDom = require('./movieDom');
 const categoryLoad = require('./categories');
 const printCategoriesToDom = require('./categoryDom');
 const data = require('./data');
+const setBudget = require('./events');
 
 const catOnLoad = function () {
   const categoryData = JSON.parse(this.responseText).categories;
@@ -10,19 +11,20 @@ const catOnLoad = function () {
   printCategoriesToDom(categoryData);
 };
 
-// const onLoad = function () {
-//   const movieData = JSON.parse(this.responseText).movie;
-//   data.setMovies(movieData);
-//   movieDom(movieData);
-// };
+const mvOnLoad = function () {
+  const movieData = JSON.parse(this.responseText).movies;
+  data.setMovies(movieData);
+  printMoviesToDom(movieData);
+};
 
 const noLoad = function () {
   console.log('Cannot Load');
 };
 
 const success = () => {
-  // movieLoad(catOnLoad, noLoad);
   categoryLoad(catOnLoad, noLoad);
+  movieLoad(mvOnLoad, noLoad);
+  setBudget();
 };
 
 module.exports = success;

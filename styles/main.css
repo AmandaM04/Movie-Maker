@@ -1,0 +1,15 @@
+.panel {
+  min-height: 100px;
+}
+
+.math {
+  border: 1px solid black;
+  min-height: 1000px;
+}
+
+#budget {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
